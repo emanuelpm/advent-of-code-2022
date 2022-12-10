@@ -9,7 +9,6 @@ pub fn day01() {
     let mut elves : Vec<u64> = Vec::new();
 	let mut cur_elf : usize = 0;
 
-    // Read the file line by line using the lines() iterator from std::io::BufRead.
     let file = File::open(filename).unwrap();
     let reader = BufReader::new(file);
 
