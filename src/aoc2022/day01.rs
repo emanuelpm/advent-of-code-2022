@@ -33,13 +33,16 @@ pub fn day01() {
 
 	let mut elf_sum : u64 = 0;
 	let mut elves_left_for_sum : i32 = 3;
-	for elf in elves {
-        println!("{}", elf);
+	for elf in &elves {
 		if elves_left_for_sum > 0 {
 			elves_left_for_sum -= 1;
 			elf_sum += elf;
 		}
+		else {
+			break;
+		}
 	}
 
-	println!("Top elves sum: {}", elf_sum);
+	println!("[Part 2] Top elf: {}", elves[0]);
+	println!("[Part 2] Top elves sum: {}", elf_sum);
 }
