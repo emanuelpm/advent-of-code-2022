@@ -29,8 +29,6 @@ pub fn day01() {
 
     elves.sort_by(|a, b| b.cmp(a));
 
-	println!("Elves by carry:");
-
 	let mut elf_sum : u64 = 0;
 	let mut elves_left_for_sum : i32 = 3;
 	for elf in &elves {
