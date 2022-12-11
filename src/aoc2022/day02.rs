@@ -11,6 +11,10 @@ pub fn day02() {
 
     let mut p1_total_score : u64 = 0;
     let mut p2_total_score : u64 = 0;
+
+    // Had an idea for using enums with tuple values, couldn't get it working
+    // so gave up and brute forced it.
+    // #TODO: Try to do this in a more Rust-y way
     for line in reader.lines() {
     	let line : String = line.unwrap();
     	let opponent = line.as_bytes()[0] as char;
