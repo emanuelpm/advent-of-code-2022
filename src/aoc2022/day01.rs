@@ -19,7 +19,7 @@ pub fn day01() {
 				elves.push(0);
 			}
 
-            let amount : u64 = line.trim().parse().expect("Year must be an integer.");
+            let amount : u64 = line.trim().parse().expect("Expected a number");
 			elves[cur_elf] += amount;
 		}
 		else {
