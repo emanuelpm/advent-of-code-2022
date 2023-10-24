@@ -78,6 +78,9 @@ pub fn day03() {
         line_number += 1;
     }
 
+    // Expected: 7597
     println!("[Part 1] Sum of priorities: {}", priorities);
+
+    // Expected: 2607
     println!("[Part 2] Sum of priorities: {}", grouped_elf_priorities);
 }

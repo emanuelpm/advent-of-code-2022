@@ -58,6 +58,9 @@ pub fn day04() {
         }
     }
 
+    // Expected: 453
     println!("[Part 1] Number of total overlaps: {}", num_total_overlaps);
+
+    // Expected: 919
     println!("[Part 2] Number of partial overlaps: {}", num_any_overlaps);
 }

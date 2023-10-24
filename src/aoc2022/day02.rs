@@ -71,6 +71,9 @@ pub fn day02() {
     	p2_total_score += p2_round_score;
     }
 
-    println!("[Part 1] Total score: {}", p1_total_score); // 13526
-    println!("[Part 2] Total score: {}", p2_total_score); // 14204
+    // Expected: 13526
+    println!("[Part 1] Total score: {}", p1_total_score);
+
+    // Expected: 14204
+    println!("[Part 2] Total score: {}", p2_total_score);
 }

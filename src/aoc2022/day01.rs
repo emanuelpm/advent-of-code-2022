@@ -41,6 +41,9 @@ pub fn day01() {
 		}
 	}
 
+	// Expected: 71023
 	println!("[Part 2] Top elf: {}", elves[0]);
+
+	// Expected: 206289
 	println!("[Part 2] Top elves sum: {}", elf_sum);
 }
