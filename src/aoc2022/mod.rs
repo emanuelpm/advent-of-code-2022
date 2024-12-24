@@ -4,6 +4,7 @@ mod day03;
 mod day04;
 mod day05;
 mod day06;
+mod day07;
 
 
 pub fn run(day : i32) {
@@ -15,6 +16,7 @@ pub fn run(day : i32) {
         4 => day04::day04(),
         5 => day05::day05(),
         6 => day06::day06(),
+        7 => day07::day07(),
         _ => panic!("Day {} not found for year 2022", day),
     }
 }
